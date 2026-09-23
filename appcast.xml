@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>October Lantern</title>
+    <link>https://lantern.october.dev</link>
+    <item>
+      <title>October Lantern 0.2.0</title>
+      <pubDate>Wed, 23 Sep 2026 18:00:45 +0000</pubDate>
+      <sparkle:version>0.2.0</sparkle:version>
+      <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <sparkle:releaseNotesLink>https://github.com/harshsaver/october-lantern-releases/releases/tag/v0.2.0</sparkle:releaseNotesLink>
+      <enclosure url="https://github.com/harshsaver/october-lantern-releases/releases/download/v0.2.0/October-Lantern.dmg" type="application/octet-stream" sparkle:edSignature="PqMU99Vcm7w70ZYIm0jCRNdXlVKflX4gCi+Ar/kkGoTFaW/GKsRVaaMf2+DyPYz7ug3wDeGY1wfxiXXPbkiiAg==" length="5691038" />
+    </item>
+  </channel>
+</rss>
