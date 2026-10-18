@@ -4,7 +4,9 @@ October Lantern is a small glowing lantern on the edge of your screen that watch
 
 ## Download
 
-**[Download October Lantern for macOS](https://github.com/harshsaver/october-lantern-releases/releases/latest/download/October-Lantern.dmg)**
+**[Download October Lantern for macOS](https://lantern.october.dev/download/mac)** · **[Windows (preview)](https://lantern.october.dev/download/windows)**
+
+Downloads come from lantern.october.dev, which serves the newest release from this repository. If your network blocks GitHub's file host, use those links rather than the files below.
 
 - macOS 14 Sonoma or later
 - Apple silicon and Intel

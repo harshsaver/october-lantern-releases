@@ -1,0 +1,63 @@
+# Keeps lantern.october.dev's downloads current. The site copies each platform's newest
+# installer into itself at build time (Saturday repo, sites/lantern/build.mjs), so a new
+# release reaches /download/mac, /download/windows and /download/latest.json only after the
+# site is rebuilt. This workflow rebuilds it:
+#   - when a release is published (publish.sh, with the DMG);
+#   - every hour, if the newest release has a file the site doesn't serve yet (the Windows
+#     installer is uploaded later by publish-desktop.sh, which doesn't fire a release event);
+#   - by hand: Actions › Update lantern.october.dev downloads › Run workflow.
+# LANTERN_SITE_DEPLOY_HOOK is the Vercel deploy hook of the october-lantern project.
+name: Update lantern.october.dev downloads
+
+on:
+  release:
+    types: [published]
+  schedule:
+    - cron: "23 * * * *"
+  workflow_dispatch:
+    inputs:
+      force:
+        description: Rebuild even if the site already serves the newest files
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: lantern-site
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check whether the site serves the newest files
+        id: check
+        env:
+          GH_TOKEN: ${{ github.token }}
+          FORCE: ${{ inputs.force || false }}
+        run: |
+          set -euo pipefail
+          release="$(gh api "repos/$GITHUB_REPOSITORY/releases/latest")"
+          latest="$(jq -r .tag_name <<<"$release")"
+          assets="$(jq -r '.assets[].name' <<<"$release")"
+          site="$(curl -fsS --retry 3 https://lantern.october.dev/download/latest.json || echo '{}')"
+          stale="$FORCE"
+          for pair in "mac October-Lantern.dmg" "windows October-Lantern-windows-x86_64-setup.exe"; do
+            set -- $pair
+            served="$(jq -r --arg p "$1" '.[$p].version // "none"' <<<"$site")"
+            if grep -qxF "$2" <<<"$assets"; then has=has; else has=lacks; fi
+            echo "$1: site serves $served; latest release $latest $has $2"
+            if [ "$has" = has ] && [ "$served" != "$latest" ]; then stale=true; fi
+          done
+          echo "stale=$stale" >> "$GITHUB_OUTPUT"
+
+      - name: Rebuild lantern.october.dev
+        if: steps.check.outputs.stale == 'true'
+        env:
+          HOOK: ${{ secrets.LANTERN_SITE_DEPLOY_HOOK }}
+        run: |
+          curl -fsS -X POST "$HOOK" -o /dev/null
+          echo "Rebuild requested. lantern.october.dev serves the new files in about two minutes."
