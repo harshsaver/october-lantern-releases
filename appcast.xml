@@ -4,13 +4,13 @@
     <title>October Lantern</title>
     <link>https://lantern.october.dev</link>
     <item>
-      <title>October Lantern 0.6.9</title>
-      <pubDate>Mon, 19 Oct 2026 23:04:24 +0000</pubDate>
-      <sparkle:version>0.6.9</sparkle:version>
-      <sparkle:shortVersionString>0.6.9</sparkle:shortVersionString>
+      <title>October Lantern 0.6.10</title>
+      <pubDate>Tue, 20 Oct 2026 03:24:33 +0000</pubDate>
+      <sparkle:version>0.6.10</sparkle:version>
+      <sparkle:shortVersionString>0.6.10</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <sparkle:releaseNotesLink>https://github.com/harshsaver/october-lantern-releases/releases/tag/v0.6.9</sparkle:releaseNotesLink>
-      <enclosure url="https://github.com/harshsaver/october-lantern-releases/releases/download/v0.6.9/October-Lantern.dmg" type="application/octet-stream" sparkle:edSignature="IuP2nXsPSjcZ1KeFvFzM85z4CAqu2XNIxMK/wyyLOYKZlrNJBRVNaTE7X5jThoqTepPzANmWnKFVlyFeChTzBQ==" length="15597302" />
+      <sparkle:releaseNotesLink>https://github.com/harshsaver/october-lantern-releases/releases/tag/v0.6.10</sparkle:releaseNotesLink>
+      <enclosure url="https://github.com/harshsaver/october-lantern-releases/releases/download/v0.6.10/October-Lantern.dmg" type="application/octet-stream" sparkle:edSignature="aThvBNiVrhFklF//tHnsiBkGJK5XuGAhseMaANjYKgCgl/YQYlhNbFgMaGr3wzbGYv5/irYdy7LUqdtPA0JzBQ==" length="15598650" />
     </item>
   </channel>
 </rss>
