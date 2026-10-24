@@ -4,10 +4,10 @@
     <title>October Lantern</title>
     <link>https://lantern.october.dev</link>
     <item>
-      <title>October Lantern 0.6.13</title>
-      <pubDate>Thu, 22 Oct 2026 07:08:30 +0000</pubDate>
-      <sparkle:version>0.6.13</sparkle:version>
-      <sparkle:shortVersionString>0.6.13</sparkle:shortVersionString>
+      <title>October Lantern 0.6.14</title>
+      <pubDate>Sat, 24 Oct 2026 21:33:07 +0000</pubDate>
+      <sparkle:version>0.6.14</sparkle:version>
+      <sparkle:shortVersionString>0.6.14</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -19,25 +19,27 @@ ul { margin: 4px 0; padding-left: 18px; }
 li { margin: 3px 0; }
 p { margin: 8px 0; color: color-mix(in srgb, CanvasText 70%, transparent); }
 </style>
-<h3>Works on a new computer, with no setup</h3>
+<h3>Add images to Ask Lantern (Mac)</h3>
 <ul>
-<li>On a Mac without tmux (most Macs), agents Lantern starts now run in the background inside Lantern instead of opening Terminal windows. Lantern brings its own tmux.</li>
-<li>With no Claude Code or Codex, or one you've never signed in to, Lantern sets up October for your tasks and says so while it does.</li>
-<li>Agents you install while Lantern is open are found without restarting it.</li>
-<li>If a task can't start, Ask Lantern says why, with <b>Try again</b>, instead of doing nothing.</li>
+<li>Paste a screenshot or image (⌘V), drop one on the box, or pick with the paperclip. Up to 6 on a message.</li>
+<li>Lantern's answer sees the first image. An agent it starts gets them all, and replies to a running agent include them too.</li>
 </ul>
-<h3>Upgrade when you run out</h3>
+<h3>Your chats stay put</h3>
 <ul>
-<li>When you've used today's free questions or your October AI credit, Ask Lantern and Point &amp; Ask say so with <b>Upgrade to October Pro</b>.</li>
+<li>If one saved chat can't be read, Lantern now skips just that one instead of losing the whole list, and keeps a copy of the file.</li>
+</ul>
+<h3>Ask Lantern always opens (Mac)</h3>
+<ul>
+<li>If Lantern's panel ever goes missing, clicking its button brings it back. You no longer need to quit Lantern.</li>
+<li>Only one copy of Lantern runs at a time. Opening it again brings up Ask Lantern.</li>
 </ul>
 <h3>Also</h3>
 <ul>
-<li>Clearer messages when an agent isn't installed.</li>
-<li>On Windows, the same anonymous usage counts as the Mac, with the same switch to turn them off in Settings.</li>
+<li>Send Logs now includes more of what Lantern itself did, to help us fix problems faster.</li>
 </ul>
 <p>The Windows installer isn't code-signed yet: if Windows shows "Windows protected your PC", click <b>More info</b>, then <b>Run anyway</b>.</p>
 ]]></description>
-      <enclosure url="https://github.com/harshsaver/october-lantern-releases/releases/download/v0.6.13/October-Lantern.dmg" type="application/octet-stream" sparkle:edSignature="JGcFcjXtSd0EwB+S3xf1QkEEoABsL9BVaUGbQefrqLhDKyBOHQVZweQ1lD44lwmDEen0Ux8uM5YVy0oR08XeDw==" length="17201594" />
+      <enclosure url="https://github.com/harshsaver/october-lantern-releases/releases/download/v0.6.14/October-Lantern.dmg" type="application/octet-stream" sparkle:edSignature="l36bhBO50QGh1U2ElKBljYp4Uz5ZK0rus7ePktKk5HBXzwpW9vkkCn0M1i/dzm8n7PfdnWHwl0P7j/OwsSmwDg==" length="17346672" />
     </item>
   </channel>
 </rss>
