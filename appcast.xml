@@ -4,10 +4,10 @@
     <title>October Lantern</title>
     <link>https://lantern.october.dev</link>
     <item>
-      <title>October Lantern 0.6.14</title>
-      <pubDate>Sat, 24 Oct 2026 21:33:07 +0000</pubDate>
-      <sparkle:version>0.6.14</sparkle:version>
-      <sparkle:shortVersionString>0.6.14</sparkle:shortVersionString>
+      <title>October Lantern 0.6.15</title>
+      <pubDate>Sat, 24 Oct 2026 22:52:13 +0000</pubDate>
+      <sparkle:version>0.6.15</sparkle:version>
+      <sparkle:shortVersionString>0.6.15</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -19,27 +19,18 @@ ul { margin: 4px 0; padding-left: 18px; }
 li { margin: 3px 0; }
 p { margin: 8px 0; color: color-mix(in srgb, CanvasText 70%, transparent); }
 </style>
-<h3>Add images to Ask Lantern (Mac)</h3>
+<h3>Add images to Ask Lantern on Windows</h3>
 <ul>
-<li>Paste a screenshot or image (⌘V), drop one on the box, or pick with the paperclip. Up to 6 on a message.</li>
+<li>Paste a screenshot or image (Ctrl+V), drop one on the box, or pick with the paperclip. Up to 6 on a message, the same as on the Mac.</li>
 <li>Lantern's answer sees the first image. An agent it starts gets them all, and replies to a running agent include them too.</li>
-</ul>
-<h3>Your chats stay put</h3>
-<ul>
-<li>If one saved chat can't be read, Lantern now skips just that one instead of losing the whole list, and keeps a copy of the file.</li>
-</ul>
-<h3>Ask Lantern always opens (Mac)</h3>
-<ul>
-<li>If Lantern's panel ever goes missing, clicking its button brings it back. You no longer need to quit Lantern.</li>
-<li>Only one copy of Lantern runs at a time. Opening it again brings up Ask Lantern.</li>
 </ul>
 <h3>Also</h3>
 <ul>
-<li>Send Logs now includes more of what Lantern itself did, to help us fix problems faster.</li>
+<li>On Windows, if one saved chat can't be read, Lantern skips just that one instead of losing the rest.</li>
 </ul>
 <p>The Windows installer isn't code-signed yet: if Windows shows "Windows protected your PC", click <b>More info</b>, then <b>Run anyway</b>.</p>
 ]]></description>
-      <enclosure url="https://github.com/harshsaver/october-lantern-releases/releases/download/v0.6.14/October-Lantern.dmg" type="application/octet-stream" sparkle:edSignature="l36bhBO50QGh1U2ElKBljYp4Uz5ZK0rus7ePktKk5HBXzwpW9vkkCn0M1i/dzm8n7PfdnWHwl0P7j/OwsSmwDg==" length="17346672" />
+      <enclosure url="https://github.com/harshsaver/october-lantern-releases/releases/download/v0.6.15/October-Lantern.dmg" type="application/octet-stream" sparkle:edSignature="jAVVYUynQapVzaf3PkdYS/OPlJBXIrDNYxdorhN8IcW44rxuQ2TBxFA+RlvJnd1wCK9gXxYkKCjomqivAvgeCQ==" length="17346939" />
     </item>
   </channel>
 </rss>
