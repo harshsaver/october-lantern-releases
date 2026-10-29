@@ -4,10 +4,10 @@
     <title>October Lantern</title>
     <link>https://lantern.october.dev</link>
     <item>
-      <title>October Lantern 0.6.15</title>
-      <pubDate>Sat, 24 Oct 2026 22:52:13 +0000</pubDate>
-      <sparkle:version>0.6.15</sparkle:version>
-      <sparkle:shortVersionString>0.6.15</sparkle:shortVersionString>
+      <title>October Lantern 0.6.16</title>
+      <pubDate>Thu, 29 Oct 2026 20:21:59 +0000</pubDate>
+      <sparkle:version>0.6.16</sparkle:version>
+      <sparkle:shortVersionString>0.6.16</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -19,18 +19,33 @@ ul { margin: 4px 0; padding-left: 18px; }
 li { margin: 3px 0; }
 p { margin: 8px 0; color: color-mix(in srgb, CanvasText 70%, transparent); }
 </style>
-<h3>Add images to Ask Lantern on Windows</h3>
+<h3>Show me</h3>
 <ul>
-<li>Paste a screenshot or image (Ctrl+V), drop one on the box, or pick with the paperclip. Up to 6 on a message, the same as on the Mac.</li>
-<li>Lantern's answer sees the first image. An agent it starts gets them all, and replies to a running agent include them too.</li>
+<li>Ask Lantern how to do something on your computer, then click <b>Show me on screen</b> (or <b>Show me</b> in Point &amp; Ask). Lantern draws an orange ring with an arrow around the place to click, one step at a time.</li>
+<li>The ring stays until you click it, then Lantern looks again and shows the next step. If you open or switch windows, it looks again on its own.</li>
+<li>Each look sends a picture of your screen to October. Lantern never clicks or types for you.</li>
+<li>On Mac, Windows and Linux (X11). On Wayland, Lantern marks the step on a picture of your screen instead.</li>
+</ul>
+<h3>Cards for your agents</h3>
+<ul>
+<li>Questions, hand-offs, progress and results from your agents show up as cards you can answer with a click.</li>
+<li>Ask Lantern can send work to an agent that's already running.</li>
+</ul>
+<h3>Your own AI key, Lantern Lifetime and the Pro trial</h3>
+<ul>
+<li>Use your own AI key for Ask Lantern, or get Lantern Lifetime or try Pro free.</li>
+<li>Free accounts get 5 Ask Lantern questions a day.</li>
 </ul>
 <h3>Also</h3>
 <ul>
-<li>On Windows, if one saved chat can't be read, Lantern skips just that one instead of losing the rest.</li>
+<li>Tasks no longer get stuck on "Getting started" when your terminal asks a question at startup (like oh-my-zsh's update prompt).</li>
+<li>Agents Lantern starts with app access work in front of you, not hidden in the background, unless you ask.</li>
+<li>Send Logs now says what happened to each Ask Lantern task, so we can fix problems faster.</li>
+<li>Lantern recovers more safely if its engine stops unexpectedly.</li>
 </ul>
 <p>The Windows installer isn't code-signed yet: if Windows shows "Windows protected your PC", click <b>More info</b>, then <b>Run anyway</b>.</p>
 ]]></description>
-      <enclosure url="https://github.com/harshsaver/october-lantern-releases/releases/download/v0.6.15/October-Lantern.dmg" type="application/octet-stream" sparkle:edSignature="jAVVYUynQapVzaf3PkdYS/OPlJBXIrDNYxdorhN8IcW44rxuQ2TBxFA+RlvJnd1wCK9gXxYkKCjomqivAvgeCQ==" length="17346939" />
+      <enclosure url="https://github.com/harshsaver/october-lantern-releases/releases/download/v0.6.16/October-Lantern.dmg" type="application/octet-stream" sparkle:edSignature="i/C6tnr6z0ooZOHTP7hgsyn2CBXuAuUUzA5AHPduzVdu5LHvf8Ovu3OILtVRj76wR7WABgxky+xSDnqrjF0dDg==" length="22777339" />
     </item>
   </channel>
 </rss>
