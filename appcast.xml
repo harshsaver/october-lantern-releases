@@ -4,10 +4,10 @@
     <title>October Lantern</title>
     <link>https://lantern.october.dev</link>
     <item>
-      <title>October Lantern 0.6.17</title>
-      <pubDate>Tue, 03 Nov 2026 07:21:34 +0000</pubDate>
-      <sparkle:version>0.6.17</sparkle:version>
-      <sparkle:shortVersionString>0.6.17</sparkle:shortVersionString>
+      <title>October Lantern 0.6.18</title>
+      <pubDate>Tue, 03 Nov 2026 09:10:07 +0000</pubDate>
+      <sparkle:version>0.6.18</sparkle:version>
+      <sparkle:shortVersionString>0.6.18</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -19,36 +19,21 @@ ul { margin: 4px 0; padding-left: 18px; }
 li { margin: 3px 0; }
 p { margin: 8px 0; color: color-mix(in srgb, CanvasText 70%, transparent); }
 </style>
-<h3>Make video ads</h3>
+<h3>Fixes</h3>
 <ul>
-<li>Ask Lantern to "make me an ad for…". The agent asks what it needs on one card, shows you a script and shot list to OK, then builds the video with Remotion and renders an MP4 for each platform you pick (Reels, TikTok, Shorts, feed or YouTube).</li>
-<li>Recipes like this one are updated online, so they get better without an app update.</li>
+<li>Answering Claude's questions from Lantern works when the question shows a draft beside its options (a script, a layout). Before, Lantern said Sent but the answer didn't go in.</li>
+<li>Lantern now says Sent only once the agent's question has closed. If it's still open, the card says "Not sure it went in" so you can check.</li>
+<li>An agent waiting on one of Lantern's cards keeps waiting if Lantern quits or updates, instead of giving up after a few seconds.</li>
 </ul>
-<h3>See what agents make</h3>
+<h3>Simpler menus</h3>
 <ul>
-<li>Agents can show you things while they work: a draft, pictures, files or a link (localhost too), on a card in the chat.</li>
-<li>When Claude asks a question with a draft beside its options (a script, a layout), the card shows the draft too.</li>
-<li>Links and files an agent mentions show up as buttons under its message: a link opens, a file shows in its folder.</li>
-<li>Task cards read in order, and answered questions fold down to your pick.</li>
-</ul>
-<h3>Safer hands-free agents</h3>
-<ul>
-<li>Claude Code now runs in its auto mode. It still finishes tasks without stopping to ask, but holds back risky actions, like deleting files you didn't ask about. Older Claude Code versions keep the previous mode.</li>
-</ul>
-<h3>Connections</h3>
-<ul>
-<li>A redesigned Connections page: connect the October phone app with one QR code, and sign in to Lantern from there.</li>
-<li>Start free trial and Buy Lifetime go straight to checkout, with your email filled in.</li>
-</ul>
-<h3>Also</h3>
-<ul>
-<li>Agents that use your apps now work in front of you, unless you ask for the background. This was meant to ship in 0.6.16.</li>
-<li>A simpler Ask Lantern conversation layout.</li>
-<li>Cua Driver 0.38.0.</li>
+<li>The menu bar icon (the tray on Windows and Linux) now has just the ways in: what's waiting on you, Ask Lantern, Point &amp; Ask, Hide Lantern, Settings and Quit. Right-clicking the lantern shows the same short list.</li>
+<li>Routines has its own tab beside Waiting and Agents.</li>
+<li>Report a Problem (Settings › About) sends Lantern's logs and opens an email with their code, so there's one button instead of two.</li>
 </ul>
 <p>The Windows installer isn't code-signed yet: if Windows shows "Windows protected your PC", click <b>More info</b>, then <b>Run anyway</b>.</p>
 ]]></description>
-      <enclosure url="https://github.com/harshsaver/october-lantern-releases/releases/download/v0.6.17/October-Lantern.dmg" type="application/octet-stream" sparkle:edSignature="Lh1nU75qsbhw79v6qS68nX/6bimrymX6xJOAKQ8WrGVYAeQUWietFUPp8gsWYvCt4AbbMVoGfeeQ9b312g/ZAg==" length="23065833" />
+      <enclosure url="https://github.com/harshsaver/october-lantern-releases/releases/download/v0.6.18/October-Lantern.dmg" type="application/octet-stream" sparkle:edSignature="RrQcZ9GwppnKTtsMmIzlML0UkceEhi7KQ53nk5ZjoYLBmAYlHBS2qoiMTKXzb6hHB1lm01QTxkuIBUt6lAbEAw==" length="23034882" />
     </item>
   </channel>
 </rss>
