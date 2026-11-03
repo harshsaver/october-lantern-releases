@@ -4,10 +4,10 @@
     <title>October Lantern</title>
     <link>https://lantern.october.dev</link>
     <item>
-      <title>October Lantern 0.6.16</title>
-      <pubDate>Thu, 29 Oct 2026 20:21:59 +0000</pubDate>
-      <sparkle:version>0.6.16</sparkle:version>
-      <sparkle:shortVersionString>0.6.16</sparkle:shortVersionString>
+      <title>October Lantern 0.6.17</title>
+      <pubDate>Tue, 03 Nov 2026 07:21:34 +0000</pubDate>
+      <sparkle:version>0.6.17</sparkle:version>
+      <sparkle:shortVersionString>0.6.17</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -19,33 +19,36 @@ ul { margin: 4px 0; padding-left: 18px; }
 li { margin: 3px 0; }
 p { margin: 8px 0; color: color-mix(in srgb, CanvasText 70%, transparent); }
 </style>
-<h3>Show me</h3>
+<h3>Make video ads</h3>
 <ul>
-<li>Ask Lantern how to do something on your computer, then click <b>Show me on screen</b> (or <b>Show me</b> in Point &amp; Ask). Lantern draws an orange ring with an arrow around the place to click, one step at a time.</li>
-<li>The ring stays until you click it, then Lantern looks again and shows the next step. If you open or switch windows, it looks again on its own.</li>
-<li>Each look sends a picture of your screen to October. Lantern never clicks or types for you.</li>
-<li>On Mac, Windows and Linux (X11). On Wayland, Lantern marks the step on a picture of your screen instead.</li>
+<li>Ask Lantern to "make me an ad for…". The agent asks what it needs on one card, shows you a script and shot list to OK, then builds the video with Remotion and renders an MP4 for each platform you pick (Reels, TikTok, Shorts, feed or YouTube).</li>
+<li>Recipes like this one are updated online, so they get better without an app update.</li>
 </ul>
-<h3>Cards for your agents</h3>
+<h3>See what agents make</h3>
 <ul>
-<li>Questions, hand-offs, progress and results from your agents show up as cards you can answer with a click.</li>
-<li>Ask Lantern can send work to an agent that's already running.</li>
+<li>Agents can show you things while they work: a draft, pictures, files or a link (localhost too), on a card in the chat.</li>
+<li>When Claude asks a question with a draft beside its options (a script, a layout), the card shows the draft too.</li>
+<li>Links and files an agent mentions show up as buttons under its message: a link opens, a file shows in its folder.</li>
+<li>Task cards read in order, and answered questions fold down to your pick.</li>
 </ul>
-<h3>Your own AI key, Lantern Lifetime and the Pro trial</h3>
+<h3>Safer hands-free agents</h3>
 <ul>
-<li>Use your own AI key for Ask Lantern, or get Lantern Lifetime or try Pro free.</li>
-<li>Free accounts get 5 Ask Lantern questions a day.</li>
+<li>Claude Code now runs in its auto mode. It still finishes tasks without stopping to ask, but holds back risky actions, like deleting files you didn't ask about. Older Claude Code versions keep the previous mode.</li>
+</ul>
+<h3>Connections</h3>
+<ul>
+<li>A redesigned Connections page: connect the October phone app with one QR code, and sign in to Lantern from there.</li>
+<li>Start free trial and Buy Lifetime go straight to checkout, with your email filled in.</li>
 </ul>
 <h3>Also</h3>
 <ul>
-<li>Tasks no longer get stuck on "Getting started" when your terminal asks a question at startup (like oh-my-zsh's update prompt).</li>
-<li>Agents Lantern starts with app access work in front of you, not hidden in the background, unless you ask.</li>
-<li>Send Logs now says what happened to each Ask Lantern task, so we can fix problems faster.</li>
-<li>Lantern recovers more safely if its engine stops unexpectedly.</li>
+<li>Agents that use your apps now work in front of you, unless you ask for the background. This was meant to ship in 0.6.16.</li>
+<li>A simpler Ask Lantern conversation layout.</li>
+<li>Cua Driver 0.38.0.</li>
 </ul>
 <p>The Windows installer isn't code-signed yet: if Windows shows "Windows protected your PC", click <b>More info</b>, then <b>Run anyway</b>.</p>
 ]]></description>
-      <enclosure url="https://github.com/harshsaver/october-lantern-releases/releases/download/v0.6.16/October-Lantern.dmg" type="application/octet-stream" sparkle:edSignature="i/C6tnr6z0ooZOHTP7hgsyn2CBXuAuUUzA5AHPduzVdu5LHvf8Ovu3OILtVRj76wR7WABgxky+xSDnqrjF0dDg==" length="22777339" />
+      <enclosure url="https://github.com/harshsaver/october-lantern-releases/releases/download/v0.6.17/October-Lantern.dmg" type="application/octet-stream" sparkle:edSignature="Lh1nU75qsbhw79v6qS68nX/6bimrymX6xJOAKQ8WrGVYAeQUWietFUPp8gsWYvCt4AbbMVoGfeeQ9b312g/ZAg==" length="23065833" />
     </item>
   </channel>
 </rss>
