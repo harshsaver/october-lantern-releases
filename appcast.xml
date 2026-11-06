@@ -4,10 +4,10 @@
     <title>October Lantern</title>
     <link>https://lantern.october.dev</link>
     <item>
-      <title>October Lantern 0.6.18</title>
-      <pubDate>Tue, 03 Nov 2026 09:10:07 +0000</pubDate>
-      <sparkle:version>0.6.18</sparkle:version>
-      <sparkle:shortVersionString>0.6.18</sparkle:shortVersionString>
+      <title>October Lantern 0.6.19</title>
+      <pubDate>Fri, 06 Nov 2026 12:12:34 +0000</pubDate>
+      <sparkle:version>0.6.19</sparkle:version>
+      <sparkle:shortVersionString>0.6.19</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -19,21 +19,20 @@ ul { margin: 4px 0; padding-left: 18px; }
 li { margin: 3px 0; }
 p { margin: 8px 0; color: color-mix(in srgb, CanvasText 70%, transparent); }
 </style>
+<h3>October agents get smarter</h3>
+<ul>
+<li>Agents you start on October now run on <b>Pro AI</b>, our smartest, when you have Lantern Lifetime, a trial or an October plan, and on <b>Lite AI</b>, free, otherwise.</li>
+<li>The task shows *October · Pro* or *October · Lite*. Settings › Account says which one your agents use.</li>
+<li>October Harness is updated to its newest version.</li>
+</ul>
 <h3>Fixes</h3>
 <ul>
-<li>Answering Claude's questions from Lantern works when the question shows a draft beside its options (a script, a layout). Before, Lantern said Sent but the answer didn't go in.</li>
-<li>Lantern now says Sent only once the agent's question has closed. If it's still open, the card says "Not sure it went in" so you can check.</li>
-<li>An agent waiting on one of Lantern's cards keeps waiting if Lantern quits or updates, instead of giving up after a few seconds.</li>
-</ul>
-<h3>Simpler menus</h3>
-<ul>
-<li>The menu bar icon (the tray on Windows and Linux) now has just the ways in: what's waiting on you, Ask Lantern, Point &amp; Ask, Hide Lantern, Settings and Quit. Right-clicking the lantern shows the same short list.</li>
-<li>Routines has its own tab beside Waiting and Agents.</li>
-<li>Report a Problem (Settings › About) sends Lantern's logs and opens an email with their code, so there's one button instead of two.</li>
+<li>When Claude Code stops to ask permission for something risky, Lantern shows the card even if only Claude's reminder came through. Before, it could show "Needs your answer" with nothing to answer.</li>
+<li>A chat you just started says "now" in Recent, not "in 0s".</li>
 </ul>
 <p>The Windows installer isn't code-signed yet: if Windows shows "Windows protected your PC", click <b>More info</b>, then <b>Run anyway</b>.</p>
 ]]></description>
-      <enclosure url="https://github.com/harshsaver/october-lantern-releases/releases/download/v0.6.18/October-Lantern.dmg" type="application/octet-stream" sparkle:edSignature="RrQcZ9GwppnKTtsMmIzlML0UkceEhi7KQ53nk5ZjoYLBmAYlHBS2qoiMTKXzb6hHB1lm01QTxkuIBUt6lAbEAw==" length="23034882" />
+      <enclosure url="https://github.com/harshsaver/october-lantern-releases/releases/download/v0.6.19/October-Lantern.dmg" type="application/octet-stream" sparkle:edSignature="jERwx+7kQIdv1LEkbamUNsbzl/Pgh2qAxemlpPCHbnBWfNrbeR4yL9Q1BpV60LrNEZL/DHiEh1lqV9JTOmUuAQ==" length="23089045" />
     </item>
   </channel>
 </rss>
