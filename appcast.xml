@@ -4,10 +4,10 @@
     <title>October Lantern</title>
     <link>https://lantern.october.dev</link>
     <item>
-      <title>October Lantern 0.6.20</title>
-      <pubDate>Tue, 10 Nov 2026 01:33:07 +0000</pubDate>
-      <sparkle:version>0.6.20</sparkle:version>
-      <sparkle:shortVersionString>0.6.20</sparkle:shortVersionString>
+      <title>October Lantern 0.6.21</title>
+      <pubDate>Tue, 10 Nov 2026 11:04:10 +0000</pubDate>
+      <sparkle:version>0.6.21</sparkle:version>
+      <sparkle:shortVersionString>0.6.21</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -19,24 +19,14 @@ ul { margin: 4px 0; padding-left: 18px; }
 li { margin: 3px 0; }
 p { margin: 8px 0; color: color-mix(in srgb, CanvasText 70%, transparent); }
 </style>
-<h3>Pro AI or Lite AI, your choice</h3>
 <ul>
-<li>Ask Lantern has a <b>Pro AI / Lite AI</b> menu next to the message box. Pro AI is our smartest; Lite AI is free. Pro AI comes with Lantern Lifetime, a trial or an October plan.</li>
-<li>Settings › Account says which one you're on, with a way to upgrade on a free account.</li>
-<li>When you start an October agent or a routine, you can pick Pro AI or Lite AI there too.</li>
-</ul>
-<h3>Agent chats and Ask, on Mac</h3>
-<ul>
-<li>A card in Waiting opens its chat in one click, wherever you click on it.</li>
-<li>Drag across a reply to select all of it, or use <b>Copy</b> to take the whole message.</li>
-<li>Ask shows the answer to a follow-up, even a long one, and keeps a task's replies as the agent moves on.</li>
-<li>When an agent stops for your answer, Ask shows the question. If it's one you answer in the agent's terminal, Ask says so, with <b>Open agent</b>.</li>
-<li>The agent chat no longer cuts off halfway: it scrolls as one, and whatever is waiting on you stays pinned at the top.</li>
-<li>If you start a new conversation in an agent (/clear or /new), your next message goes there as its own task.</li>
+<li><b>Report a Problem sends straight away.</b> One click sends Lantern's logs (without passwords or keys) and copies the code for you to share. An email opens only if sending fails; on Mac you can still add details by email afterwards.</li>
+<li><b>Tables in replies read properly.</b> A table shows as its header, then one line per row, instead of raw <code>|</code> and <code>---</code>.</li>
+<li><b>Tasks Ask hands to a running agent ask you first.</b> When Ask passes your request to an agent that's already running, the agent asks you to decide things like what to delete or move, with a question card, instead of only listing what it found.</li>
 </ul>
 <p>The Windows installer isn't code-signed yet: if Windows shows "Windows protected your PC", click <b>More info</b>, then <b>Run anyway</b>.</p>
 ]]></description>
-      <enclosure url="https://github.com/harshsaver/october-lantern-releases/releases/download/v0.6.20/October-Lantern.dmg" type="application/octet-stream" sparkle:edSignature="PzvBR5tzbte9TZKOySnx5sWJEA4o8ZKjVI/g6GXfqLs5/1TT1vwekVuAIiBXMvjtOb0BZyu892zG0ag4w3IVCA==" length="23307736" />
+      <enclosure url="https://github.com/harshsaver/october-lantern-releases/releases/download/v0.6.21/October-Lantern.dmg" type="application/octet-stream" sparkle:edSignature="m9E0ldHj/sxpaGu5txlHWfqsSarLtd46uCPYD7AYxyxfQDBR9e3Wx0BGK6dJU4I1OzG2Wplzp8nR54y9a1DTCg==" length="23306458" />
     </item>
   </channel>
 </rss>
