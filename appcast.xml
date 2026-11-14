@@ -4,10 +4,10 @@
     <title>October Lantern</title>
     <link>https://lantern.october.dev</link>
     <item>
-      <title>October Lantern 0.6.21</title>
-      <pubDate>Tue, 10 Nov 2026 11:04:10 +0000</pubDate>
-      <sparkle:version>0.6.21</sparkle:version>
-      <sparkle:shortVersionString>0.6.21</sparkle:shortVersionString>
+      <title>October Lantern 0.6.22</title>
+      <pubDate>Sat, 14 Nov 2026 14:03:15 +0000</pubDate>
+      <sparkle:version>0.6.22</sparkle:version>
+      <sparkle:shortVersionString>0.6.22</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <style>
@@ -19,14 +19,33 @@ ul { margin: 4px 0; padding-left: 18px; }
 li { margin: 3px 0; }
 p { margin: 8px 0; color: color-mix(in srgb, CanvasText 70%, transparent); }
 </style>
+<h3>Stop</h3>
 <ul>
-<li><b>Report a Problem sends straight away.</b> One click sends Lantern's logs (without passwords or keys) and copies the code for you to share. An email opens only if sending fails; on Mac you can still add details by email afterwards.</li>
-<li><b>Tables in replies read properly.</b> A table shows as its header, then one line per row, instead of raw <code>|</code> and <code>---</code>.</li>
-<li><b>Tasks Ask hands to a running agent ask you first.</b> When Ask passes your request to an agent that's already running, the agent asks you to decide things like what to delete or move, with a question card, instead of only listing what it found.</li>
+<li>While Lantern is answering, or an agent from your Ask chat is working, the send button turns into <b>Stop</b>. It stops the agent where it is and keeps it open for your next message. (Grok can't be stopped this way, so it gets no Stop.)</li>
+</ul>
+<h3>Faster at using your apps</h3>
+<ul>
+<li>Agents open websites and apps in one step instead of clicking through the browser, and look at the screen only when they need to.</li>
+<li>Claude Code starts with Lantern's tools ready, saving a step the first time it uses them.</li>
+<li>Updated Cua Driver (0.44): typing is faster.</li>
+</ul>
+<h3>Show me</h3>
+<ul>
+<li>Show me can now point at entries in sidebars and lists, such as Appearance in System Settings, instead of guessing a spot on the screen.</li>
+</ul>
+<h3>Setting up October on Windows</h3>
+<ul>
+<li>If your computer can't reach npm, where October is downloaded from, Lantern now says so within a minute instead of waiting 5 minutes and failing. Trying again picks up where the download stopped, and a slow connection gets up to 15 minutes.</li>
+</ul>
+<h3>Also</h3>
+<ul>
+<li>Grok Build agents show when they're working and when it's your turn, with their last message and chat.</li>
+<li>New recipes for fixing a bug and cleaning up a CSV.</li>
+<li>Buttons are labelled for screen readers on every platform.</li>
 </ul>
 <p>The Windows installer isn't code-signed yet: if Windows shows "Windows protected your PC", click <b>More info</b>, then <b>Run anyway</b>.</p>
 ]]></description>
-      <enclosure url="https://github.com/harshsaver/october-lantern-releases/releases/download/v0.6.21/October-Lantern.dmg" type="application/octet-stream" sparkle:edSignature="m9E0ldHj/sxpaGu5txlHWfqsSarLtd46uCPYD7AYxyxfQDBR9e3Wx0BGK6dJU4I1OzG2Wplzp8nR54y9a1DTCg==" length="23306458" />
+      <enclosure url="https://github.com/harshsaver/october-lantern-releases/releases/download/v0.6.22/October-Lantern.dmg" type="application/octet-stream" sparkle:edSignature="EvcjJDantJteq43ZNEtrmUweDTWZOOAhRhVlU3Gyu5Gegon6k9ZMD5p5nkzcFpu806EtVxevLkPKtgBnI2iPDA==" length="23444124" />
     </item>
   </channel>
 </rss>
